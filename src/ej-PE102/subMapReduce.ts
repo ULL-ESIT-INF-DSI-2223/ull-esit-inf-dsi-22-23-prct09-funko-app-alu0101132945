@@ -7,7 +7,7 @@ export class SubMapReduce extends TemplateMapReduce{
      * @param curr valor actual
      * @returns la resta de ambos valores
      */
-    reduce(acc: number, curr: number): number {
+    protected reduce(acc: number, curr: number): number {
         return acc - curr;
     }
     /**
@@ -15,7 +15,7 @@ export class SubMapReduce extends TemplateMapReduce{
      * @param maplist lista sobre la que se hizo el map
      * @param valorFinal valor resultado del reduce
      */
-    showResult(maplist: number[], valorFinal: number): void {
+    protected showResult(maplist: number[], valorFinal: number): void {
         console.log(`La resta de los elementos ${maplist} es ${valorFinal}`);
     }
 }

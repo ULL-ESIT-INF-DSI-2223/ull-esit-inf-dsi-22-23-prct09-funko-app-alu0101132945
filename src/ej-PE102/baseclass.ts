@@ -43,7 +43,7 @@ export abstract class TemplateMapReduce{
      * @param maplist lista resultado del map
      * @param valorFinal valor resultado del reduce
      */
-    showResult(maplist:number[],valorFinal:number){}
+    protected showResult(maplist:number[],valorFinal:number){}
 
     /**
      * metodo que ejecuta las operaciones de la clase
