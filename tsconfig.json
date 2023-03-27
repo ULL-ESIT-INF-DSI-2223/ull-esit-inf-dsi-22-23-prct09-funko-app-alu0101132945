@@ -14,9 +14,11 @@
 	},
 	"typedocOptions":{
 		"entryPoints": [
-			"./src/mergesort/mergesort.ts",
-			"./src/bubblesort/bubblesort.ts",
-			"./src/sort/sort.ts",
+			"./src/ej-PE102/baseclass.ts",
+			"./src/ej-PE102/addMapReduce.ts",
+			"./src/ej-PE102/subMapReduce.ts",
+			"./src/ej-PE102/prodMapReduce.ts",
+			"./src/ej-PE102/divMapReduce.ts",
 		],
 		"out": "./docs"
 	}
