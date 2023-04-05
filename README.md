@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![Coverage Status](https://coveralls.io/repos/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-alu0101132945/badge.svg?branch=master)](https://coveralls.io/github/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct06-generics-solid-alu0101132945?branch=master)
 
 # Práctica 9 - Aplicación de registro de Funko Pops
@@ -397,3 +398,4 @@ yargs(hideBin(process.argv))
 .argv
 ```    
 implementando las funcionalidades indicadas en la clase __FunkoUserStorage__, usando el paquete yargs para gestionar la linea de comandos y pasarle los parametros de los metodos a la clase.
+
