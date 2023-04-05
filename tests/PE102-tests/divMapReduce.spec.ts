@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {DivMapReduce} from '../src/ej-PE102/divMapReduce'
+import {DivMapReduce} from '../../src/ej-PE102/divMapReduce.js'
 
 describe('DivMapReduce methods tests', () => {
     it('run test', () => {

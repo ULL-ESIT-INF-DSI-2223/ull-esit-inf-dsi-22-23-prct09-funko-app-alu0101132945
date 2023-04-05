@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {SubMapReduce} from '../src/ej-PE102/subMapReduce'
+import {SubMapReduce} from '../../src/ej-PE102/subMapReduce.js'
 
 describe('SubMapReduce methods tests', () => {
     it('run test', () => {

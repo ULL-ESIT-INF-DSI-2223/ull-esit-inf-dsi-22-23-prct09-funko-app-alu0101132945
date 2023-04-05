@@ -1,4 +1,4 @@
-import { TemplateMapReduce } from "./baseclass";
+import { TemplateMapReduce } from "./baseclass.js";
 
 export class DivMapReduce extends TemplateMapReduce{
     /**

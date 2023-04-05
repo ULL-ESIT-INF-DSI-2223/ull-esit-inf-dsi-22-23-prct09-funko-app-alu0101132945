@@ -6,7 +6,7 @@
 	],
 	"compilerOptions": {
 		"target": "es2022",
-		"module": "commonjs",
+		"module": "Node16",
 		"rootDir": "./src",
 		"declaration": true,
 		"outDir": "./dist",
@@ -19,6 +19,10 @@
 			"./src/ej-PE102/subMapReduce.ts",
 			"./src/ej-PE102/prodMapReduce.ts",
 			"./src/ej-PE102/divMapReduce.ts",
+			"./src/funko.ts",
+			"./src/app.ts",
+			"./src/usuario.ts"
+
 		],
 		"out": "./docs"
 	}

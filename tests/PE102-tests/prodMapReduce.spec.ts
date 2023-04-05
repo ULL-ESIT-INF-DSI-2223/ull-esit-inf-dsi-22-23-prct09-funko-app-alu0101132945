@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {ProdMapReduce} from '../src/ej-PE102/prodMapReduce'
+import {ProdMapReduce} from '../../src/ej-PE102/prodMapReduce.js'
 
 describe('ProdMapReduce methods tests', () => {
     it('run test', () => {
